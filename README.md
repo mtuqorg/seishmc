@@ -1,13 +1,13 @@
 # SEISHMC
 ![SEISHMC](./doc/images/seishmc.png)
 
-SEISHMC is a Python package that is based on [MTUQ](https://github.com/uafgeotools/mtuq) and utilizes **Hamiltonian Monte Carlo** (HMC) algorithm to invert the full moment tensor of earthquake sources.
+SEISHMC is a Python package that is based on [MTUQ](https://github.com/mtuqorg/mtuq) and utilizes **Hamiltonian Monte Carlo** (HMC) algorithm to invert the full moment tensor of earthquake sources.
 
 
 ## Installation
 
 1. Requirements
-    * [MTUQ](https://github.com/uafgeotools/mtuq) ([https://github.com/uafgeotools/mtuq](https://github.com/uafgeotools/mtuq))
+    * [MTUQ](https://github.com/mtuqorg/mtuq) ([https://github.com/mtuqorg/mtuq](https://github.com/mtuqorg/mtuq))
     * Seaborn (>= 0.11.2) 
     * Numpy
     * Pandas
@@ -33,7 +33,7 @@ We achieve lower waveform misfits in our examples using HMC algorithm.
 * FMT: Full Moment Tensor solution
 * GS: Grid Search
 * HMC: Hamiltonian Monte Carlo algorithm
-* *(Grid search is performed using [MTUQ](https://github.com/uafgeotools/mtuq) and HMC sampling is carried out with SeisHMC.)*
+* *(Grid search is performed using [MTUQ](https://github.com/mtuqorg/mtuq) and HMC sampling is carried out with SeisHMC.)*
 
 ## Examples
 Overview of many examples provided by SeisHMC.
